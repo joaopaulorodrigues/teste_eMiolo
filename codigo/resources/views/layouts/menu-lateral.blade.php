@@ -19,7 +19,16 @@
 
         </li>
         <li class="has-subnav">
-            <a href="#">
+            <a href="{{ url('/navesSW') }}">
+                <i class="fa fa-jedi fa-2x"></i>
+                <span class="nav-text">
+                            Naves Star Wars
+                        </span>
+            </a>
+
+        </li>
+        <li class="has-subnav">
+            <a href="{{ url('/navesSW') }}">
                 <i class="fa fa-jedi fa-2x"></i>
                 <span class="nav-text">
                             Uso da API

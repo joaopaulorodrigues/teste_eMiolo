@@ -291,3 +291,14 @@ tbody tr:hover {
         padding-right: 15px;
     }
 }
+
+/*--------------------------------------------------------------------------------*/
+/*Modal*/
+
+.modal-header{
+    background-color: #212529;
+}
+
+#nome-nave{
+    color: white;
+}

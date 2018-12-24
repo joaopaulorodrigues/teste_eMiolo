@@ -47,4 +47,15 @@ class HomeController extends Controller
         ]);
     }
 
+    /**
+     * Exibi as naves de Star Wars
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function navesSW()
+    {
+        $users = User::all();
+        return view('naves');
+    }
+
 }

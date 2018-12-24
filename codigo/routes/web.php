@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/cadastrados', ['uses' => 'HomeController@cadastrados']);
+
+Route::get('/navesSW', ['uses' => 'HomeController@navesSW']);
