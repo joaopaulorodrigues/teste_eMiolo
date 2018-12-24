@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Session;
+use App\User;
 use Illuminate\Http\Request;
 
 

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3186e8-79ea-4bd5-9841-e9d937b779f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/teste-eMiolo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teste-eMiolo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/app/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/app/Session.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#41#57#0#PHP" expanded="true" />
               </folding>
@@ -39,11 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codigo/app/Session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="51" column="35" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="35" />
-              <folding>
-                <element signature="e#23#41#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -82,12 +72,12 @@
         <option value="$PROJECT_DIR$/codigo/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/codigo/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/codigo/database/migrations/2018_12_24_151744_create_sessions_table.php" />
-        <option value="$PROJECT_DIR$/codigo/app/Session.php" />
         <option value="$PROJECT_DIR$/codigo/routes/web.php" />
         <option value="$PROJECT_DIR$/codigo/config/session.php" />
         <option value="$PROJECT_DIR$/codigo/.env" />
         <option value="$PROJECT_DIR$/codigo/.env.example" />
         <option value="$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/codigo/app/Session.php" />
       </list>
     </option>
   </component>
@@ -272,18 +262,17 @@
       <option name="presentableId" value="Default" />
       <updated>1545653987210</updated>
       <workItem from="1545653988599" duration="7170000" />
-      <workItem from="1545667183941" duration="3798000" />
+      <workItem from="1545667183941" duration="4970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10968000" />
+    <option name="totallyTimeSpent" value="12140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12433298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12433298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,7 +285,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -450,18 +439,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codigo/app/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="e#23#41#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#41#57#0#PHP" expanded="true" />
           </folding>

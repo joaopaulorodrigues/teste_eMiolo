@@ -7,6 +7,7 @@ use Cartalyst\Sentinel\Sentinel;
 use Illuminate\Database\Eloquent\Model;
 use PhpParser\Builder;
 use Cartalyst;
+use Illuminate\Database\Eloquent\Builder;
 
 
 class Session extends Model
