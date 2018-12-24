@@ -10,7 +10,7 @@
 
         </li>
         <li class="has-subnav">
-            <a href="#">
+            <a href="{{ url('/cadastrados') }}">
                 <i class="fa fa-users fa-2x"></i>
                 <span class="nav-text">
                             Usuários Cadastrados

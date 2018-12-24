@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 
-use App\Session;
 use App\User;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -22,7 +20,7 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Exibi os dados do usuário
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
@@ -33,6 +31,19 @@ class HomeController extends Controller
             'name' => $user->name,
             'email' => $user->email,
             'modificacao' => $user->updated_at,
+        ]);
+    }
+
+    /**
+     * Exibi os usuários cadastrados
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function cadastrados()
+    {
+        $users = User::all();
+        return view('cadastrados', [
+            'users' => $users
         ]);
     }
 
