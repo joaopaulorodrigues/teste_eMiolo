@@ -7,11 +7,11 @@
             <div class="card">
                 <div class="card-header">Dados do usuário</div>
 
-                <p>Nome: </p>
+                <p>Nome: {{$name}}</p>
 
-                <p>Email:</p>
+                <p>Email: {{$email}}</p>
 
-                <p>Última modificação:</p>
+                <p>Última modificação:  {{$modificacao->format('d/m/Y - H:m')}}</p>
 
             </div>
         </div>

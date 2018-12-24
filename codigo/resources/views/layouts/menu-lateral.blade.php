@@ -1,7 +1,7 @@
 <div class="area"></div><nav class="main-menu">
     <ul>
         <li>
-            <a href="http://justinfarrow.com">
+            <a href="{{ url('/') }}">
                 <i class="fa fa-user"></i>
                 <span class="nav-text">
                             Dados do Usuário
