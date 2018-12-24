@@ -18,11 +18,5 @@ class Controller extends BaseController
         ]);
     }
 
-    public function cadastrar(){
-        echo "Tela Cadastro";
-    }
 
-    public function login(){
-        echo "Tela Login";
-    }
-}
+ }

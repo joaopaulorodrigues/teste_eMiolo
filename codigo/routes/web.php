@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', ['uses' => 'Controller@homepage']);
+Route::get('/', ['uses' => 'HomeController@index']);
 
-Route::get('/cadastro', ['uses' => 'Controller@cadastrar']);
+Auth::routes();
 
-Route::get('/login', ['uses' => 'Controller@login']);
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
