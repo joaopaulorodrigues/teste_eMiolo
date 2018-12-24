@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/codigo/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/codigo/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/beyondcode/laravel-dump-server" />
+      <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/cartalyst/sentinel" />
+      <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/cartalyst/support" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/doctrine/inflector" />
@@ -52,6 +54,7 @@
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/phpunit/php-timer" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/predis/predis" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/prettus/l5-repository" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/prettus/laravel-validation" />
       <excludeFolder url="file://$MODULE_DIR$/codigo/vendor/psr/container" />

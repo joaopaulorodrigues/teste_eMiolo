@@ -91,6 +91,9 @@
       <path value="$PROJECT_DIR$/codigo/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/codigo/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/codigo/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/codigo/vendor/cartalyst/support" />
+      <path value="$PROJECT_DIR$/codigo/vendor/cartalyst/sentinel" />
+      <path value="$PROJECT_DIR$/codigo/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Session;
 use Illuminate\Http\Request;
+
 
 class HomeController extends Controller
 {
