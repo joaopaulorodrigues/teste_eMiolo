@@ -11,7 +11,7 @@
 
                 <p>Email: {{$email}}</p>
 
-                <p>Última modificação:  {{$modificacao->format('d/m/Y - H:m')}}</p>
+                <p>Data de Criação:  {{$criacao->format('d/m/Y')}}</p>
 
             </div>
         </div>

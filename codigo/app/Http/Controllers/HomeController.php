@@ -30,7 +30,7 @@ class HomeController extends Controller
         return view('home', [
             'name' => $user->name,
             'email' => $user->email,
-            'modificacao' => $user->updated_at,
+            'criacao' => $user->created_at,
         ]);
     }
 
