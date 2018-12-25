@@ -1,4 +1,6 @@
-var result ='';
+var result ='';  // variável global que guarda o response do ajax, para economizar requisições
+
+// requisição para API que retorna as navas do Star Wars
 $.ajax({
     type: "GET",
     url: "https://swapi.co/api/starships/",
@@ -6,6 +8,7 @@ $.ajax({
     success: function(data) {
         result = data;
        for(var i in data.results) {
+            // Adicionando dinamicamente as linhas da tabela
             var linha = '<tr>' +
                 '            <td>'+data.results[i]['model']+'</td>\n' +
                 '            <td>'+data.results[i]['name']+'</td>\n' +
@@ -18,6 +21,7 @@ $.ajax({
     error: function(data) { FailureCallBack(data); }
 });
 
+// função que monta e mostra o Modal ao clicar no botão Ver mais, presente na tabela
 function vermais(nave) {
     $('#nome-nave').text(result.results[nave]['name']);
     $('#modelo').text('Modelo: '+result.results[nave]['model']);
@@ -29,6 +33,8 @@ function vermais(nave) {
     $('#fabricante').text('Fabricante: '+result.results[nave]['manufacturer']);
     $('#velocidade').text('Velocidade máxima na atmosfera: '+result.results[nave]['max_atmosphering_speed']);
     $('#filmes').text('Filmes em que a nave aparece:');
+
+    // faz requisições com as urls dos filmes, para obter o nome e o número do epsódio dos mesmos
     for(var i in result.results[nave]['films']){
         $.ajax({
             type: "GET",

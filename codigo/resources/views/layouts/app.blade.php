@@ -78,7 +78,7 @@
                 </div>
             </div>
         </nav>
-
+        {{--Exibi o menu lateral somente quando o usuário está logado--}}
         @auth
             @include('layouts/menu-lateral')
         @endauth

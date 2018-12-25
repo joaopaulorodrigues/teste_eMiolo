@@ -65,6 +65,7 @@
 </div>
 @endsection
 
+{{--Adiciona o js responsável pelas requisições e a manipulação do modal--}}
 @section('scripts')
     <script src="{{ asset('js/naves.js') }}" defer></script>
 @endsection
