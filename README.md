@@ -8,7 +8,7 @@ O sistema contêm 3 funcionalidades:
 - Listagem das naves de Star Wars
 
 --------------------------------------------------------------------------------------------------
-#Considerações
+# Considerações
 
 Como determinado pela descrição da tarefa, foram utilizadas 2 funções da API
   https://swapi.co/documentation. A https://swapi.co/api/starships/, responsável por listar todas as naves, 
