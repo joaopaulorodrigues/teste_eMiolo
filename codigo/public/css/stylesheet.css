@@ -4,6 +4,9 @@ p{
 .card-header{
     font-size: x-large;
 }
+td{
+    cursor:default;
+}
 
 /*Menu*/
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);

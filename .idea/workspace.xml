@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3186e8-79ea-4bd5-9841-e9d937b779f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codigo/public/js/naves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codigo/resources/views/naves.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codigo/public/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/public/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/resources/views/layouts/menu-lateral.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/resources/views/layouts/menu-lateral.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/public/js/naves.js" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/public/js/naves.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/resources/views/naves.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/resources/views/naves.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,35 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codigo/resources/views/naves.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="57" />
+            <state relative-caret-position="315">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codigo/public/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codigo/public/css/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="301" column="1" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codigo/public/js/naves.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codigo/resources/views/cadastrados.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -70,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
+            <state relative-caret-position="540">
               <caret line="54" column="27" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="27" />
               <folding>
                 <element signature="e#41#54#0#PHP" expanded="true" />
@@ -126,9 +113,9 @@
         <option value="$PROJECT_DIR$/codigo/routes/web.php" />
         <option value="$PROJECT_DIR$/codigo/resources/views/layouts/menu-lateral.blade.php" />
         <option value="$PROJECT_DIR$/codigo/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/codigo/public/js/naves.js" />
-        <option value="$PROJECT_DIR$/codigo/resources/views/naves.blade.php" />
         <option value="$PROJECT_DIR$/codigo/public/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/codigo/resources/views/naves.blade.php" />
+        <option value="$PROJECT_DIR$/codigo/public/js/naves.js" />
       </list>
     </option>
   </component>
@@ -252,39 +239,6 @@
               <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
               <item name="codigo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="teste-eMiolo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
-              <item name="codigo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste-eMiolo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
-              <item name="codigo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste-eMiolo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
-              <item name="codigo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste-eMiolo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
-              <item name="codigo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste-eMiolo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste-eMiolo" type="462c0819:PsiDirectoryNode" />
-              <item name="codigo" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -331,18 +285,19 @@
       <option name="presentableId" value="Default" />
       <updated>1545653987210</updated>
       <workItem from="1545653988599" duration="7170000" />
-      <workItem from="1545667183941" duration="21128000" />
+      <workItem from="1545667183941" duration="21875000" />
+      <workItem from="1545741120205" duration="3017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28298000" />
+    <option name="totallyTimeSpent" value="32062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12433298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12433298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codigo/resources/views/cadastrados.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codigo/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -553,16 +501,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codigo/public/js/naves.js">
+    <entry file="file://$PROJECT_DIR$/codigo/public/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codigo/resources/views/cadastrados.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="87" lean-forward="true" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codigo/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
+        <state relative-caret-position="540">
           <caret line="54" column="27" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="27" />
           <folding>
             <element signature="e#41#54#0#PHP" expanded="true" />
@@ -572,15 +527,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codigo/resources/views/naves.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="315">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codigo/public/css/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/codigo/public/js/naves.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="301" column="1" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
         </state>
       </provider>
     </entry>

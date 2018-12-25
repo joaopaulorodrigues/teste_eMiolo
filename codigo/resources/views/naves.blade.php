@@ -20,6 +20,7 @@
                     <p id="passengers"></p>
                     <p id="fabricante"></p>
                     <p id="velocidade"></p>
+                    <p id="filmes"></p>
 
                 </div>
                 <div class="modal-footer">

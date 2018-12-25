@@ -28,6 +28,19 @@ function vermais(nave) {
     $('#passengers').text('Número de passageiros: '+result.results[nave]['passengers']);
     $('#fabricante').text('Fabricante: '+result.results[nave]['manufacturer']);
     $('#velocidade').text('Velocidade máxima na atmosfera: '+result.results[nave]['max_atmosphering_speed']);
+    $('#filmes').text('Filmes em que a nave aparece:');
+    for(var i in result.results[nave]['films']){
+        $.ajax({
+            type: "GET",
+            url: result.results[nave]['films'][i],
+            contentType: "application/json; charset=utf-8",
+            success: function(data) {
+                $('#filmes').append('<p>Episode '+ data['episode_id'] +' - '+ data['title'] + '</p>');
+            },
+            error: function(data) { FailureCallBack(data); }
+        });
+
+    }
     $('#modalNave').modal('show');
 }
 
